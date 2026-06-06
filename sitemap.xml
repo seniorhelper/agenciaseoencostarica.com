@@ -1,1 +1,52 @@
-keep
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.agenciaseoencostarica.com/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.agenciaseoencostarica.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.agenciaseoencostarica.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.agenciaseoencostarica.com/"/>
+  </url>
+  <url>
+    <loc>https://www.agenciaseoencostarica.com/servicios/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.agenciaseoencostarica.com/servicios/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.agenciaseoencostarica.com/servicios/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.agenciaseoencostarica.com/servicios/"/>
+  </url>
+  <url>
+    <loc>https://www.agenciaseoencostarica.com/como-funciona/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.agenciaseoencostarica.com/como-funciona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.agenciaseoencostarica.com/como-funciona/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.agenciaseoencostarica.com/como-funciona/"/>
+  </url>
+  <url>
+    <loc>https://www.agenciaseoencostarica.com/contacto/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.agenciaseoencostarica.com/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.agenciaseoencostarica.com/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.agenciaseoencostarica.com/contacto/"/>
+  </url>
+  <url>
+    <loc>https://www.agenciaseoencostarica.com/politica-de-privacidad/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.agenciaseoencostarica.com/sitemap.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>
