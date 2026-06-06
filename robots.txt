@@ -1,1 +1,41 @@
-keep
+# robots.txt — agenciaseoencostarica.com
+# Operated by Eye To Ad Media — info@eyetoad.com
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome AI / LLM crawlers (AIO, GEO, agentic search)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Manus
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://www.agenciaseoencostarica.com/sitemap.xml
