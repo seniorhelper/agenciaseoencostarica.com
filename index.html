@@ -533,6 +533,10 @@
       .hero h1 { font-size: 2.1rem; }
       .q-summary { padding: 22px; }
     }
+  
+    /* 390px fit */
+    html, body { overflow-x: clip; }
+    @media (max-width: 480px) { .header-wa { font-size: 0; gap: 0; padding: 9px 11px; } .header-wa span { font-size: 18px; } }
   </style>
 </head>
 <body>
@@ -1108,7 +1112,7 @@
     /* ===== MOBILE MENU ===== */
     function toggleMenu(e) {
       if (e) { e.preventDefault(); e.stopPropagation(); }
-      document.getElementById('mobile-menu').classList.toggle('open');
+      var mm=document.getElementById('mobile-menu'),hd=document.querySelector('header');if(hd)mm.style.top=Math.max(0,hd.getBoundingClientRect().bottom)+'px';mm.classList.toggle('open');
     }
 
     /* ===== QUOTE BUILDER ===== */

@@ -220,6 +220,10 @@
     @media(max-width:860px){.header-nav,.header-phone{display:none;}.hamburger{display:flex;}.footer-grid{grid-template-columns:1fr 1fr;gap:28px;}}
     @media(max-width:768px){:root{--header-h:78px;}header{padding:0 16px;}.header-logo img{width:200px;}section{padding:60px 18px;}.lang-bar{padding:7px 14px;font-size:11px;}.footer-grid{grid-template-columns:1fr;}.flow{padding-left:56px;}.flow::before{left:23px;}.flow-step .node{left:-56px;width:48px;height:48px;}}
     @media(max-width:420px){.h-hero h1{font-size:2.1rem;}.price-now{font-size:2.6rem;}}
+  
+    /* 390px fit */
+    html, body { overflow-x: clip; }
+    @media (max-width: 480px) { .header-wa { font-size: 0; gap: 0; padding: 9px 11px; } .header-wa span { font-size: 18px; } }
   </style>
 </head>
 <body>
@@ -535,7 +539,7 @@
       const lp=document.getElementById('lang-prompt'); if(lp) lp.style.display='none';
       renderFAQ(lang);
     }
-    function toggleMenu(e){ if(e){e.preventDefault();e.stopPropagation();} document.getElementById('mobile-menu').classList.toggle('open'); }
+    function toggleMenu(e){ if(e){e.preventDefault();e.stopPropagation();} var mm=document.getElementById('mobile-menu'),hd=document.querySelector('header');if(hd)mm.style.top=Math.max(0,hd.getBoundingClientRect().bottom)+'px';mm.classList.toggle('open'); }
 
     const faqData={
       es:[
